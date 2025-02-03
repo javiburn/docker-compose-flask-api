@@ -31,10 +31,6 @@ services:
       MYSQL_DATABASE: apidb
       MYSQL_USER: user
       MYSQL_PASSWORD: password
-      DB_HOST: host
-      DB_USER: user
-      DB_PASSWORD: password
-      DB_NAME: apidb
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
